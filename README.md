@@ -52,7 +52,7 @@ It returns an object that has `success` property. If `result.success` is `true` 
 
 Otherwise, `result.errors` will be an object with keys for each property that failed validation. The key value will be the validation error message.
 
-> NOTE: Error messages will now return the message from directly Zod. You can customize the error message
+> NOTE: Error messages will now return the message from Zod directly . You can customize the error message
 > in your Zod schema [Zod Custom Error Messages](https://github.com/colinhacks/zod#custom-error-messages)
 
 > If the validation returns multiple errors for the same key, it will return an array, otherwise it will be a string.
