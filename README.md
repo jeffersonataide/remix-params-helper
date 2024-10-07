@@ -27,7 +27,7 @@ Zod is a peer dependency
 
 ## 📦 Zod
 
-Zod is used to validate untyped data and either return a valid object or a list of errors encounted.
+Zod is used to validate untyped data and either return a valid object or a list of errors encountered.
 
 To use the helper, first define your Zod schema. It also supports nested objects and
 arrays.
